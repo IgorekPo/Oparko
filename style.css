@@ -705,6 +705,7 @@ margin-bottom: 160px;
   position: relative;
 }
 .swiper-wrapper {
+  cursor: pointer;
 }
 .slider__item {
 }
