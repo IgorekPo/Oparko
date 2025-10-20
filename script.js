@@ -4,3 +4,13 @@ burgerMenu.addEventListener("click", function () {
   burgerMenu.classList.toggle("active");
   headerMenu.classList.toggle("active");
 });
+
+
+new Swiper('.slider-swiper', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+});
