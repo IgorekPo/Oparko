@@ -723,3 +723,77 @@ width: 14px;
     height: 10px;
     border-radius: 20px;
 }
+
+
+
+/* INSTA=================================== */
+
+
+.insta {
+  margin-bottom: 160px;
+}
+.insta__container {
+  max-width: 1255px;
+display: flex;
+gap: 20px;
+}
+.insta__img {
+  width: 100%;
+}
+
+.insta__img img{
+  aspect-ratio: 380 / 380;
+  object-fit: contain;
+}
+
+
+
+/* FOTE========================= */
+
+
+.footer {
+  margin-bottom: 160px;
+}
+.footer__containar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 60px;
+}
+.footer__tittle {
+    font-family: "Playfair+Display";
+  line-height: 110%;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #000;
+}
+.footer__links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+.footer__link {
+  width: 40px;
+  height: 40px;
+  transition: all .5s ease;
+}
+.footer__link:hover {
+  scale: 1.2;
+}
+.footer__navs {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+.footer__nav {
+  font-size: 24px;
+  color: #555555;
+  line-height: 1.8;
+  transition: all .5s ease;
+}
+.footer__nav:hover {
+  scale: 1.2;
+  color: #694E38;
+}
